@@ -30,8 +30,8 @@ const App = () => {
         <Inputan nama = " Email" color = " white"/>
         <Inputan nama = "username" color = "white"/>
         <Inputan nama = " pasword" color = "black"/>
-    </View>
-  )
+        </View>
+    )
 }
 
 export default App;
