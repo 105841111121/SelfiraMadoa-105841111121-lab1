@@ -4,7 +4,10 @@ import React from 'react'
 const ButtonComponent = ({ title, color}) => {
   return (
     <View style= {{
-      marginHorizontal: 10
+      marginHorizontal: 10,
+      alignItems: 'center',
+      justifyContent: 'center',
+      marginVertical: 10,
     }}>
       <Text style= {{
         width: 350,

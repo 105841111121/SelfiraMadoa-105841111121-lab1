@@ -1,6 +1,6 @@
 import { Text, View, Image, TextInput} from 'react-native'
 import React from 'react'
-import SignUp from './component/pages/signUp'
+import Login from './component/pages/login'
 
 const App = () => {
     return (
@@ -8,10 +8,10 @@ const App = () => {
             flex : 1,
             backgroundColor: '#EEEEEE'
          }}>
-          <SignUp/>
+          <Login/>
           </View>
     )
 }
 
 
-export default App
+export default Login
